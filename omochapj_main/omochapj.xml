@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/kodani_kz/Documents/omochapj/omochapj.sch</source>
+    <date>2018/06/26 15:41:55</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>omochapj.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW4">
+      <value>Switch_DPST</value>
+      <libsource lib="device" part="Switch_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B29050B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B291076</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Switch_DPST</value>
+      <libsource lib="device" part="Switch_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B298F4A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B298F50</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>Switch_DPST</value>
+      <libsource lib="device" part="Switch_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B298FC9</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B298FCF</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Switch_DPST</value>
+      <libsource lib="device" part="Switch_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B299522</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B299528</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>Switch_DPST</value>
+      <libsource lib="device" part="Switch_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2999CD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2999D3</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>Switch_DPST</value>
+      <libsource lib="device" part="Switch_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2999E8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2999EE</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A7B2B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TWE-LITE_DIP</value>
+      <libsource lib="omochapj-cache" part="TWE-LITE_DIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31EB97</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Switch_DPST">
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch_DPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="omochapj-cache" part="TWE-LITE_DIP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TWE-LITE_DIP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="I2C_SCL" type="BiDi"/>
+        <pin num="3" name="UART_RX" type="BiDi"/>
+        <pin num="4" name="PWM1" type="output"/>
+        <pin num="5" name="DO1" type="output"/>
+        <pin num="6" name="PWM2" type="output"/>
+        <pin num="7" name="PMW3" type="output"/>
+        <pin num="8" name="DO2" type="output"/>
+        <pin num="9" name="DO3" type="output"/>
+        <pin num="10" name="UART_TX" type="output"/>
+        <pin num="11" name="PWM4" type="output"/>
+        <pin num="12" name="DO4" type="output"/>
+        <pin num="13" name="MODE_M1" type="output"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="DI1" type="input"/>
+        <pin num="16" name="DI2" type="input"/>
+        <pin num="17" name="DI3" type="input"/>
+        <pin num="18" name="DI4" type="input"/>
+        <pin num="19" name="I2C_SDA" type="input"/>
+        <pin num="20" name="BPS" type="input"/>
+        <pin num="21" name="RST" type="input"/>
+        <pin num="22" name="AI1" type="input"/>
+        <pin num="23" name="AI2" type="input"/>
+        <pin num="24" name="AI3" type="input"/>
+        <pin num="25" name="AI4" type="input"/>
+        <pin num="26" name="MODE_M2" type="input"/>
+        <pin num="27" name="MODE_M3" type="input"/>
+        <pin num="28" name="+3.3V" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="omochapj-cache">
+      <uri>C:\Users\kodani_kz\Documents\omochapj\omochapj-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R1-Pad2)">
+      <node ref="SW1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="2" name="Net-(R2-Pad2)">
+      <node ref="SW2" pin="4"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="SW2" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="SW3" pin="4"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="9" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="SW4" pin="4"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="10" name="VCC">
+      <node ref="R1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="24" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="22"/>
+      <node ref="SW5" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="SW6" pin="4"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="28" name="Net-(SW2-Pad1)">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="29" name="Net-(SW2-Pad3)">
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="30" name="Net-(SW6-Pad1)">
+      <node ref="SW6" pin="1"/>
+    </net>
+    <net code="31" name="Net-(SW6-Pad3)">
+      <node ref="SW6" pin="3"/>
+    </net>
+    <net code="32" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(SW4-Pad3)">
+      <node ref="SW4" pin="3"/>
+    </net>
+    <net code="34" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(SW5-Pad1)">
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="36" name="Net-(SW5-Pad3)">
+      <node ref="SW5" pin="3"/>
+    </net>
+    <net code="37" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="38" name="Net-(SW3-Pad3)">
+      <node ref="SW3" pin="3"/>
+    </net>
+    <net code="39" name="Net-(SW4-Pad1)">
+      <node ref="SW4" pin="1"/>
+    </net>
+  </nets>
+</export>
